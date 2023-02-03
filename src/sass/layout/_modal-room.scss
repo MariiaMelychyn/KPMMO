@@ -1,0 +1,22 @@
+.modal-room {
+  height: 100%;
+  max-height: 780px;
+  overflow-y: auto;
+  @media screen and (min-width: $tablet) {
+    overflow-y: hidden;
+    height: auto;
+    &__first {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__third {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__second {
+      display: flex;
+      justify-content: flex-end;
+    }
+    padding: 60px;
+  }
+}

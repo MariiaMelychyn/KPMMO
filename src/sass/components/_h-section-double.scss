@@ -1,0 +1,196 @@
+.hotel-double {
+  padding: 32px 0;
+
+  @media screen and (min-width: 1024px) {
+    padding: 62px 0 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 72px 0 40px;
+  }
+  &--flex {
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 42px;
+    }
+    @media screen and (min-width: 1280px) {
+      gap: 155px;
+    }
+  }
+  &__text {
+    word-wrap: break-word;
+    max-width: 338px;
+
+    @media screen and (min-width: 1024px) {
+      max-width: 438px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      max-width: 525px;
+    }
+    &--up {
+      margin-bottom: 8px;
+      font-family: 'Times New Roman';
+      font-size: 20px;
+      line-height: 1.15;
+      color: $TextColorGreyLight;
+
+      @media screen and (min-width: 1024px) {
+        font-size: 32px;
+        line-height: 1.15;
+      }
+    }
+    &--down {
+      max-width: 258px;
+      margin-bottom: 32px;
+      font-family: 'Montserrat';
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1.25;
+      letter-spacing: 0.02em;
+      color: $TextColorGrey;
+      @media screen and (min-width: 1024px) {
+        max-width: 439px;
+        font-size: 16px;
+      }
+      @media screen and (min-width: 1280px) {
+        max-width: 400px;
+      }
+    }
+  }
+  &__title {
+    margin-bottom: 32px;
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+    color: $TextColorBrownLight;
+
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 62px;
+      font-size: 64px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 72px;
+    }
+  }
+  &__subtitle {
+    margin-bottom: 12px;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: $TextColorBlack;
+    &--uppercase {
+      text-transform: uppercase;
+    }
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 16px;
+      font-size: 30px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 24px;
+      font-size: 36px;
+    }
+  }
+  &__images {
+    z-index: 1;
+  }
+  &__img {
+    margin: 0 0 32px auto;
+    width: 244px;
+    border-radius: 2px;
+    box-shadow: $Box-shadow-small;
+
+    @media screen and (min-width: 1024px) {
+      width: 400px;
+      margin: -94px 0 48px;
+      box-shadow: $Box-shadow-big;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 460px;
+      margin: -104px 0 49px;
+    }
+  }
+  &__button {
+    margin: 0 auto;
+    display: block;
+    max-width: 236px;
+    @media screen and (min-width: 1024px) {
+      margin: 0 0 0 auto;
+    }
+    & .button:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}
+.hp-section-common__slider-container.hotel-fix {
+  margin-right: 85px;
+  margin-left: 0;
+}
+.hotel-fix {
+  @media screen and (min-width: 1024px) {
+    margin-right: 266px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-right: 326px;
+  }
+}
+.hotel-double__slider {
+  overflow: hidden;
+
+  @media screen and (min-width: 414px) {
+    width: 404px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.swiper {
+  width: 404px;
+  height: 189px;
+  margin-bottom: 40px;
+  @media screen and (min-width: $tablet) {
+    width: 428px;
+    height: 194px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 548px;
+    height: 254px;
+  }
+  &-arrows.swiper-button-next,
+  &-arrows.swiper-button-prev {
+    @media screen and (min-width: 1024px) {
+      margin-top: 130px;
+    }
+    @media screen and (min-width: 1280px) {
+      margin-top: 170px;
+    }
+  }
+}
+.hotel-section__slider {
+  &--container {
+    margin: 0 0 20px -210px;
+    display: flex;
+    overflow: hidden;
+
+    @media screen and (min-width: 600px) {
+      margin: 0 auto 20 auto;
+    }
+    @media screen and (min-width: $tablet) {
+      margin: 0;
+      min-height: 260px;
+    }
+    @media screen and (min-width: 1280px) {
+      min-height: 333px;
+    }
+  }
+}
