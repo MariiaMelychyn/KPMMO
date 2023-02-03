@@ -1,15 +1,15 @@
 {
-  "name": "mimino-demo",
+  "name": "KPMMO",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Yuliia1511Pacheva.github.io/mimino",
+  "homepage": "https://MariiaMelychyn.github.io/KPMMO",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mimino/"
+    "build": "parcel build src/*.html --public-url /KPMMO/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yuliia1511Pacheva/mimino.git"
+    "url": "git+https://github.com/MariiaMelychyn/KPMMO.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
